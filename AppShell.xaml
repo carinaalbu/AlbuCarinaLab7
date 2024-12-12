@@ -8,16 +8,21 @@
     Title="AlbuCarinaLab7">
     <TabBar>
         <ShellContent
-            Title="Welcome"
-            ContentTemplate="{DataTemplate local:MainPage}"
+                    Title="Welcome"
+                    ContentTemplate="{DataTemplate local:MainPage}"
+        />
+
+        <ShellContent
+                    Title="My Shopping Lists"
+                    ContentTemplate="{DataTemplate local:ListEntryPage}"
         />
         <ShellContent
-            Title="About"
-            ContentTemplate="{DataTemplate local:AboutPage}"
+                    Title="My Shops"
+                    ContentTemplate="{DataTemplate local:ShopEntryPage}"
         />
         <ShellContent
-            Title="My Shopping Lists"
-            ContentTemplate="{DataTemplate local:ListEntryPage}"
+                    Title="About"
+                    ContentTemplate="{DataTemplate local:AboutPage}"
         />
     </TabBar>
 </Shell>
